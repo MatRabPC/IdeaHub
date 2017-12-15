@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uoit.rara.finalexam.MainActivity">
+
+
+
+    <ListView
+        android:id="@+id/lstIdeas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_idea"
+        android:onClick="addIdea"/-->
+
+    <!--Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_idea"
+        android:onClick="searchIdea"/-->
+
+    <!--Button
+        android:id="@+id/btnSort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debug Check Alarmlist"
+        android:onClick="sortData"/-->
+
+
+</LinearLayout>

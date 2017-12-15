@@ -1,0 +1,49 @@
+<resources>
+    <string-array name="media">
+        <item></item>
+        <item>Television</item>
+        <item>Video Games</item>
+        <item>Music</item>
+        <item>Knitting</item>
+    </string-array>
+
+    <string-array name="soundfx">
+        <item></item>
+        <item>Riff</item>
+        <item>Jazz</item>
+        <item>Piano</item>
+        <item>Dragon</item>
+    </string-array>
+
+
+    <string name="app_name">FinalExam</string>
+    <string name="add_idea">Add Idea</string>
+    <string name="title_activity_add_idea">AddIdeaActivity</string>
+    <string name="idea_name">Idea Name</string>
+    <string name="idea_description">Idea Description</string>
+    <string name="title_activity_edit_idea">EditIdeaActivity</string>
+    <string name="add_topic">Add Topic</string>
+    <string name="title_activity_add_topic">AddTopicActivity</string>
+    <string name="title_activity_show_idea">ShowIdeaActivity</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="search_idea">Search Idea</string>
+    <string name="title_activity_search_idea">SearchIdeaActivity</string>
+    <string name="sound">Sound</string>
+    <string name="search">Search</string>
+    <string name="topic">Topic</string>
+    <string name="sort">Sort</string>
+    <string name="title_activity_sort_ideas">SortIdeasActivity</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="title_activity_set_alarm">SetAlarmActivity</string>
+    <string name="alarm">Alarm:</string>
+    <string name="title_activity_view_txt">ViewTxtActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="submit_changes">Submit Changes</string>
+    <string name="topics">Topics</string>
+    <string name="location_thought">Location Thought:</string>
+    <string name="textview">Textview</string>
+
+
+</resources>
