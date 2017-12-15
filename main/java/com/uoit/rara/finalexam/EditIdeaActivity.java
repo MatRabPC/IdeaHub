@@ -24,7 +24,7 @@ public class EditIdeaActivity extends AppCompatActivity {
     private IdeaHelper ideaHelper;
     private String originalName = "";
     private TopicHelper topicHelper;
-    String[] media = {"Video Games", "Television", "Music", "Knitting"};
+    String[] media = {"Travel", "Eductaion", "Finance", "Music", "Technology"};
     String[] soundlist = {"Riff", "Jazz", "Piano", "Dragon"};
 
     @Override

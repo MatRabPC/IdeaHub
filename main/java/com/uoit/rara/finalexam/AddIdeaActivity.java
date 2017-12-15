@@ -97,7 +97,7 @@ public class AddIdeaActivity extends AppCompatActivity implements LocationListen
                 List<Address> results = geocoder.getFromLocation(latitude, longitude, 1);
 
                 if (results.size() > 0) {
-                    return results.get(0).getAddressLine(0);
+                    return results.get(0).getAddressLine(1);
                 }
             } catch (IOException e) {
                 e.printStackTrace();

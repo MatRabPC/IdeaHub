@@ -22,12 +22,13 @@ public class ShowIdeaActivity extends AppCompatActivity {
     //set up vars
     private IdeaHelper ideaHelper;
     private TopicHelper topicHelper = new TopicHelper();
-    String[] media = {"Video Games", "Television", "Music", "Knitting"};
-    int[] drawableIds = {R.drawable.ico_vid, R.drawable.ico_tv, R.drawable.ico_music, R.drawable.ico_nit};
+    String[] media = {"Travel", "Eductaion", "Finance", "Music", "Technology"};
+    int[] drawableIds = {R.drawable.ic_airplanemode_active_black_24dp, R.drawable.ic_sort_by_alpha_black_24dp, R.drawable.ic_attach_money_black_24dp, R.drawable.ic_library_music_black_24dp, R.drawable.ic_subtitles_black_24dp};
     String[] soundlist = {"Riff", "Jazz", "Piano", "Dragon"};
     int[] soundIds = {R.raw.drive, R.raw.trumpet, R.raw.persona, R.raw.dragon};
     String originalName = "";
     public MediaPlayer musicMediaPlayer;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

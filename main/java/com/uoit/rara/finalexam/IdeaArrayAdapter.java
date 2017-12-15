@@ -18,8 +18,9 @@ public class IdeaArrayAdapter extends ArrayAdapter<Idea> {
         private TopicHelper topicHelper = new TopicHelper();
         private List<Idea> data;
         private Context context;
-        String[] media = {"Video Games", "Television", "Music", "Knitting"};
-        int[] drawableIds = {R.drawable.ico_vid, R.drawable.ico_tv, R.drawable.ico_music, R.drawable.ico_nit};
+    String[] media = {"Travel", "Eductaion", "Finance", "Music", "Technology"};
+    int[] drawableIds = {R.drawable.ic_airplanemode_active_black_24dp, R.drawable.ic_sort_by_alpha_black_24dp, R.drawable.ic_attach_money_black_24dp, R.drawable.ic_library_music_black_24dp, R.drawable.ic_subtitles_black_24dp};
+
 
     public IdeaArrayAdapter(Context context, List<Idea> data) {
             super(context, R.layout.idea_list_item, data);
